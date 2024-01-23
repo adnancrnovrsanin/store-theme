@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Fancy Lab v1.0.0\n"
-"POT-Creation-Date: 2019-06-26 16:03-0300\n"
+"POT-Creation-Date: 2019-07-11 18:37-0300\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Your Name <you@example.com>\n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -20,6 +20,7 @@ msgstr ""
 "Language: en_US\n"
 "X-Generator: Poedit 2.0.6\n"
 "X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: inc/class-tgm-plugin-activation.php\n"
 
 #: 404.php:17
 msgid "Page not found"
@@ -33,21 +34,15 @@ msgstr ""
 msgid "Take a Look at Our Latest Posts"
 msgstr ""
 
-#: archive.php:31
-#: index.php:33
-#: search.php:33
+#: archive.php:31 index.php:33 search.php:33
 msgid "Previous"
 msgstr ""
 
-#: archive.php:32
-#: index.php:34
-#: search.php:34
+#: archive.php:32 index.php:34 search.php:34
 msgid "Next"
 msgstr ""
 
-#: archive.php:37
-#: index.php:39
-#: template-home.php:188
+#: archive.php:37 index.php:39 template-home.php:192
 msgid "Nothing to display."
 msgstr ""
 
@@ -69,46 +64,47 @@ msgstr[1] ""
 msgid "Comments are closed."
 msgstr ""
 
+#: demo-data/ocdi.php:10
+msgid "This theme works best with WooCommerce installed."
+msgstr ""
+
 #: footer.php:39
 msgid "Copyright X - All Rights Reserved"
 msgstr ""
 
-#: functions.php:50
+#: functions.php:66
 msgid "Fancy Lab Main Menu"
 msgstr ""
 
-#: functions.php:51
+#: functions.php:67
 msgid "Fancy Lab Footer Menu"
 msgstr ""
 
-#: functions.php:140
+#: functions.php:159
 msgid "Fancy Lab Main Sidebar"
 msgstr ""
 
-#: functions.php:142
-#: functions.php:160
-#: functions.php:169
-#: functions.php:178
+#: functions.php:161 functions.php:179 functions.php:188 functions.php:197
 msgid "Drag and drop your widgets here"
 msgstr ""
 
-#: functions.php:149
+#: functions.php:168
 msgid "Sidebar Shop"
 msgstr ""
 
-#: functions.php:151
+#: functions.php:170
 msgid "Drag and drop your WooCommerce widgets here"
 msgstr ""
 
-#: functions.php:158
+#: functions.php:177
 msgid "Footer Sidebar 1"
 msgstr ""
 
-#: functions.php:167
+#: functions.php:186
 msgid "Footer Sidebar 2"
 msgstr ""
 
-#: functions.php:176
+#: functions.php:195
 msgid "Footer Sidebar 3"
 msgstr ""
 
@@ -156,48 +152,39 @@ msgstr ""
 msgid "Slider Section"
 msgstr ""
 
-#: inc/customizer.php:60
-#: inc/customizer.php:61
+#: inc/customizer.php:60 inc/customizer.php:61
 msgid "Set slider page 1"
 msgstr ""
 
-#: inc/customizer.php:79
-#: inc/customizer.php:80
+#: inc/customizer.php:79 inc/customizer.php:80
 msgid "Button Text for Page 1"
 msgstr ""
 
-#: inc/customizer.php:98
-#: inc/customizer.php:99
+#: inc/customizer.php:98 inc/customizer.php:99
 msgid "URL for Page 1"
 msgstr ""
 
-#: inc/customizer.php:119
-#: inc/customizer.php:120
+#: inc/customizer.php:119 inc/customizer.php:120
 msgid "Set slider page 2"
 msgstr ""
 
-#: inc/customizer.php:138
-#: inc/customizer.php:139
+#: inc/customizer.php:138 inc/customizer.php:139
 msgid "Button Text for Page 2"
 msgstr ""
 
-#: inc/customizer.php:157
-#: inc/customizer.php:158
+#: inc/customizer.php:157 inc/customizer.php:158
 msgid "URL for Page 2"
 msgstr ""
 
-#: inc/customizer.php:178
-#: inc/customizer.php:179
+#: inc/customizer.php:178 inc/customizer.php:179
 msgid "Set slider page 3"
 msgstr ""
 
-#: inc/customizer.php:197
-#: inc/customizer.php:198
+#: inc/customizer.php:197 inc/customizer.php:198
 msgid "Button Text for Page 3"
 msgstr ""
 
-#: inc/customizer.php:216
-#: inc/customizer.php:217
+#: inc/customizer.php:216 inc/customizer.php:217
 msgid "URL for Page 3"
 msgstr ""
 
@@ -209,38 +196,31 @@ msgstr ""
 msgid "Home Page Section"
 msgstr ""
 
-#: inc/customizer.php:244
-#: inc/customizer.php:245
+#: inc/customizer.php:244 inc/customizer.php:245
 msgid "Popular Products Title"
 msgstr ""
 
-#: inc/customizer.php:262
-#: inc/customizer.php:263
+#: inc/customizer.php:262 inc/customizer.php:263
 msgid "Popular Products Max Number"
 msgstr ""
 
-#: inc/customizer.php:280
-#: inc/customizer.php:281
+#: inc/customizer.php:280 inc/customizer.php:281
 msgid "Popular Products Max Columns"
 msgstr ""
 
-#: inc/customizer.php:300
-#: inc/customizer.php:301
+#: inc/customizer.php:300 inc/customizer.php:301
 msgid "New Arrivals Title"
 msgstr ""
 
-#: inc/customizer.php:318
-#: inc/customizer.php:319
+#: inc/customizer.php:318 inc/customizer.php:319
 msgid "New Arrivals Max Number"
 msgstr ""
 
-#: inc/customizer.php:336
-#: inc/customizer.php:337
+#: inc/customizer.php:336 inc/customizer.php:337
 msgid "New Arrivals Max Columns"
 msgstr ""
 
-#: inc/customizer.php:356
-#: inc/customizer.php:357
+#: inc/customizer.php:356 inc/customizer.php:357
 msgid "Deal of the Week Title"
 msgstr ""
 
@@ -256,8 +236,7 @@ msgstr ""
 msgid "Product ID to Display"
 msgstr ""
 
-#: inc/customizer.php:411
-#: inc/customizer.php:412
+#: inc/customizer.php:411 inc/customizer.php:412
 msgid "Blog Section Title"
 msgstr ""
 
@@ -303,31 +282,23 @@ msgstr ""
 msgid "News From Our Blog"
 msgstr ""
 
-#: template-parts/content-archive.php:23
-#: template-parts/content-search.php:23
-#: template-parts/content-single.php:15
-#: template-parts/content.php:23
+#: template-parts/content-archive.php:23 template-parts/content-search.php:23
+#: template-parts/content-single.php:15 template-parts/content.php:23
 msgid "Published by"
 msgstr ""
 
-#: template-parts/content-archive.php:23
-#: template-parts/content-search.php:23
-#: template-parts/content-single.php:15
-#: template-parts/content.php:23
+#: template-parts/content-archive.php:24 template-parts/content-search.php:24
+#: template-parts/content-single.php:15 template-parts/content.php:24
 msgid "on"
 msgstr ""
 
-#: template-parts/content-archive.php:26
-#: template-parts/content-search.php:26
-#: template-parts/content-single.php:18
-#: template-parts/content.php:26
+#: template-parts/content-archive.php:27 template-parts/content-search.php:27
+#: template-parts/content-single.php:18 template-parts/content.php:27
 msgid "Categories"
 msgstr ""
 
-#: template-parts/content-archive.php:30
-#: template-parts/content-search.php:30
-#: template-parts/content-single.php:22
-#: template-parts/content.php:30
+#: template-parts/content-archive.php:31 template-parts/content-search.php:31
+#: template-parts/content-single.php:22 template-parts/content.php:31
 msgid "Tags"
 msgstr ""
 

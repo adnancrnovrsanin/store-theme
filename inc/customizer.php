@@ -230,6 +230,9 @@ function fancy_lab_customizer( $wp_customize ){
 		)
 	);	
 
+		// We're gonna show the following options if WooCommerce is active
+		if( class_exists( 'WooCommerce' )):
+
 			// Field 1 - Popular Products Title
 			$wp_customize->add_setting(
 				'set_popular_title', array(
@@ -395,6 +398,7 @@ function fancy_lab_customizer( $wp_customize ){
 				)
 			);
 
+		endif; // End Class Exists WooCommerce
 
 			/*---------------------------------------------------------------------------------------*/
 			// Field 10 - Blog Title
