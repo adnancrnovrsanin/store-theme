@@ -1,11 +1,4 @@
 <?php
-/**
- * Template part for displaying search results
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package Fancy Lab
- */
 
 ?>
 <article <?php post_class(); ?>>

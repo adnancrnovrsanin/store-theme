@@ -1,11 +1,9 @@
 /*
-Theme Name: Fancy Lab
-Theme URI: http://www.inbrackets.dev/themes/fancy-lab-theme
-Author: inbrackets
-Author URI: http://www.inbrackets.dev
-Description: Fancy Lab is a compatible WooCommerce theme made with WordPress. It is the best theme for you to sell anything online, beautifuly designed and fully responsive.
+Theme Name: Store Theme
+Author: Adnan Crnovrsanin
+Description: Store Theme is a compatible WooCommerce theme made with WordPress. It is the best theme for you to sell anything online, beautifuly designed and fully responsive.
 Version: 1.0
-Text Domain: fancy-lab
+Text Domain: store-theme
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: e-commerce, custom-menu, custom-logo, featured-images, footer-widgets, theme-options, translation-ready, blog, right-sidebar, sticky-post, threaded-comments
@@ -94,7 +92,6 @@ body{
 
 /* Header - Main Menu */
 body #page > header{
-    border-top: 4px solid #FFEB33;
     background-color: #fdfdfd;
     border-bottom: 1px solid #eee;    
 }
@@ -185,7 +182,7 @@ header .brand img{
 }
 
 .main-menu .navbar-nav .active>.nav-link{ 
-    color: #CA2424; 
+    color: dodgerblue; 
 }
 
 .main-menu .dropdown-item:focus, 
@@ -201,7 +198,7 @@ header .brand img{
 
 .main-menu .dropdown-item.active, 
 .main-menu .dropdown-item:active {
-    background-color: #d2335b;
+    background-color: dodgerblue;
 }
 
 .main-menu .navbar-toggler{
@@ -275,7 +272,7 @@ header .brand img{
 }
 
 .cart .items{
-    background: #CA2424;
+    background: dodgerblue;
     color: #fff;
     width: 20px;
     height: 20px;
@@ -318,7 +315,7 @@ header .brand img{
 }
 
 .slider-details-container a{
-    background-color: #D2335B;
+    background-color: lightskyblue;
     color: #fff;
     border-radius: 5px;
     text-transform: uppercase;
@@ -342,7 +339,7 @@ header .brand img{
 }
 
 .flex-control-paging li a.flex-active {
-    background: #D2335B !important;
+    background: dodgerblue !important;
     width: 25px !important;
 }
 
@@ -399,7 +396,7 @@ header .brand img{
 .home .popular-products .woocommerce ul.products li.product .button,
 .home .new-arrivals .woocommerce ul.products li.product .button {
     background-color: transparent;
-    color: #d83a65;
+    color: lightskyblue;
     padding: 0;
     margin: 0;
     transition: 0.5s;
@@ -424,7 +421,7 @@ header .brand img{
 }
 
 .deal-of-the-week .discount{
-    background: #ff6891;
+    background: lightskyblue;
     color: #fff;
     padding: 0.5rem;
     display: inline-block;
@@ -675,7 +672,7 @@ header .brand img{
     border-radius: 0;   
     width: 83px;
     padding: 0;
-    background-color: #D2335B;
+    background-color: dodgerblue;
     margin: 0;
     font-weight: 400;
 }
@@ -689,7 +686,7 @@ header .brand img{
     height: 0;
     border-style: solid;
     border-width: 24px 22px 0 0;
-    border-color: #D2335B transparent transparent transparent;
+    border-color: dodgerblue transparent transparent transparent;
 }
 
 .woocommerce ul.products li.product .onsale:after {
@@ -701,7 +698,7 @@ header .brand img{
     height: 0;
     border-style: solid;
     border-width: 0 22px 24px 0;
-    border-color: transparent transparent #D2335B transparent;
+    border-color: transparent transparent dodgerblue transparent;
 }
 
 .woocommerce nav.woocommerce-pagination ul li a, 
@@ -815,7 +812,7 @@ header .brand img{
 .woocommerce a.button:hover, 
 .woocommerce button.button:hover, 
 .woocommerce input.button:hover{
-    background-color: #ffe252;
+    background-color: orangered;
 }
 
 /* Cart */
@@ -945,7 +942,7 @@ header .brand img{
 }
 
 .comment-form input[type="submit"]{
-    background-color: #D2335B;
+    background-color: dodgerblue;
     color: #fff;
     border-radius: 5px;
     text-transform: uppercase;

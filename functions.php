@@ -1,19 +1,6 @@
 <?php
-
-/**
- * Fancy Lab functions and definitions
- *
- * @link https://developer.wordpress.org/themes/basics/theme-functions/
- *
- * @package Fancy Lab
- */
-
-/**
- * Enqueue files for the TGM PLugin Activation library.
- */
 require_once get_template_directory() . '/inc/class-tgm-plugin-activation.php';
 require_once get_template_directory() . '/inc/required-plugins.php';
-
 require_once get_template_directory() . '/demo-data/ocdi.php';
 
 /**
@@ -29,7 +16,7 @@ require_once get_template_directory() . '/inc/customizer.php';
 /**
 * Enqueue scripts and styles.
 */
-function fancy_lab_scripts(){
+function store_scripts(){
 	//Bootstrap javascript and CSS files
  	wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/inc/bootstrap.min.js', array( 'jquery' ), '4.3.1', true );
  	wp_enqueue_style( 'bootstrap-css', get_template_directory_uri() . '/inc/bootstrap.min.css', array(), '4.3.1', 'all' );
@@ -49,7 +36,7 @@ function fancy_lab_scripts(){
 		wp_enqueue_script( 'comment-reply' );
 	}
  }
- add_action( 'wp_enqueue_scripts', 'fancy_lab_scripts' );
+ add_action( 'wp_enqueue_scripts', 'store_scripts' );
 
 /**
 * Sets up theme defaults and registers support for various WordPress features.
@@ -58,7 +45,7 @@ function fancy_lab_scripts(){
 * runs before the init hook. The init hook is too late for some features, such
 * as indicating support for post thumbnails.
 */
-function fancy_lab_config(){
+function store_config(){
 
 		// This theme uses wp_nav_menu() in two locations.
 		register_nav_menus(
@@ -120,7 +107,7 @@ function fancy_lab_config(){
 
 		add_theme_support( 'title-tag' );			
 }
-add_action( 'after_setup_theme', 'fancy_lab_config', 0 );
+add_action( 'after_setup_theme', 'store_config', 0 );
 
 /**
  * If WooCommerce is active, we want to enqueue a file
@@ -133,9 +120,9 @@ if( class_exists( 'WooCommerce' )){
 /**
  * Show cart contents / total Ajax
  */
-add_filter( 'woocommerce_add_to_cart_fragments', 'fancy_lab_woocommerce_header_add_to_cart_fragment' );
+add_filter( 'woocommerce_add_to_cart_fragments', 'store_woocommerce_header_add_to_cart_fragment' );
 
-function fancy_lab_woocommerce_header_add_to_cart_fragment( $fragments ) {
+function store_woocommerce_header_add_to_cart_fragment( $fragments ) {
 	global $woocommerce;
 
 	ob_start();
@@ -153,8 +140,8 @@ function fancy_lab_woocommerce_header_add_to_cart_fragment( $fragments ) {
  * @link https://developer.wordpress.org/reference/functions/register_sidebar/
  *
  */
-add_action( 'widgets_init', 'fancy_lab_sidebars' );
-function fancy_lab_sidebars(){
+add_action( 'widgets_init', 'store_sidebars' );
+function store_sidebars(){
 	register_sidebar( array(
 		'name'			=> esc_html__( 'Fancy Lab Main Sidebar', 'fancy-lab' ),
 		'id'			=> 'fancy-lab-sidebar-1',
@@ -205,7 +192,7 @@ function fancy_lab_sidebars(){
 /**
  * Adds custom classes to the array of body classes.
  */
-function fancy_lab_body_classes( $classes ) {
+function store_body_classes( $classes ) {
 
 	// Adds a class of no-sidebar to sites without active sidebar.
 	if ( ! is_active_sidebar( 'fancy-lab-sidebar-1' ) ) {
@@ -222,4 +209,4 @@ function fancy_lab_body_classes( $classes ) {
 
 	return $classes;
 }
-add_filter( 'body_class', 'fancy_lab_body_classes' );
+add_filter( 'body_class', 'store_body_classes' );
