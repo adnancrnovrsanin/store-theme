@@ -4,7 +4,6 @@
  *
  * @link https://docs.woocommerce.com/document/woocommerce-theme-developer-handbook/#section-3
  *
- * @package Fancy Lab
  */
 
 function fancy_lab_wc_modify(){

@@ -2,7 +2,6 @@
 /**
  * Template for displaying search forms in Fancy Lab
  *
- * @package Fancy Lab
  */
 ?>
 

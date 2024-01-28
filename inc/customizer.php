@@ -3,7 +3,6 @@
 /**
  * Fany Lab Theme Customizer
  *
- * @package Fancy Lab
  */
 
 function fancy_lab_customizer( $wp_customize ){
